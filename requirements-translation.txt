@@ -1,0 +1,7 @@
+# OPTIONAL - offline Indian-language translation (NLLB-200).
+# torch is only needed for the one-time model conversion; after that it can be uninstalled
+# (pip uninstall torch) to save ~1 GB of disk and a lot of RAM.
+transformers>=4.40
+sentencepiece>=0.2
+ctranslate2>=4.0
+torch>=2.2

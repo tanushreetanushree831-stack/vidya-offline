@@ -1,0 +1,10 @@
+[browser]
+gatherUsageStats = false      # no telemetry: the app must stay fully offline
+
+[server]
+fileWatcherType = "none"      # lighter on low-spec CPUs
+maxUploadSize = 300           # MB
+
+[theme]
+base = "light"
+primaryColor = "#2563eb"
